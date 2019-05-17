@@ -17,15 +17,6 @@ var svg = d3.select("#scatter")
  .attr("width", svgWidth)
  .attr("height", svgHeight);
 
-// Adding 2-digit state abbr to circle
-// svg.append("text")
-//  .attr("x", 100)   
-//  .attr("y", 20 )
-//  .attr("dy", "3.5em" )
-//  .attr("text-anchor", "start")  
-//  .style("font-size", "28px")  
-//  .style("font-weight", "bold")
-
 var chartGroup = svg.append("g")
  .attr("transform", `translate(${margin.left}, ${margin.top})`);
 

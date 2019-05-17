@@ -14,6 +14,11 @@ body {
   padding-bottom: 80px;
 }
 
+text {
+  text-anchor: middle;
+  alignment-baseline: middle;
+}
+
 #footer {
   position: absolute;
   bottom: 0;
